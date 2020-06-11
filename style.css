@@ -1,0 +1,82 @@
+.table{
+	border: 1px double black; /* Параметры границы */
+    background: #377f8c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+body {
+  min-height: 500px;
+
+  background-color: #e8ceb0;
+  background-image: url("images/phone.jpg");
+  background-position: 50% 50%;
+  background-size: 3000px;
+  background-repeat: no-repeat;
+}
+.shapka{
+	text-align:  center;
+	min-height: 200px;
+  /*background-color: #ff7dd1;*/
+  background-image: url("images/sloni.png");
+  width: 100%;
+  
+  overflow: hidden;
+  text-shadow: 0 0 tomato,
+               0 0 yellowgreen,
+               0 0 skyblue;
+  color: transparent;
+  transition: all 1s;
+}
+.shapka:hover {
+	text-shadow: -400px 0 tomato,
+                 400px 0 yellowgreen,
+                 0 0 skyblue;
+}
+.H1 {
+  overflow: hidden;
+  text-shadow: 0 0 tomato,
+               0 0 yellowgreen,
+               0 0 skyblue;
+  color: transparent;
+  transition: all 1s;
+  }
+  .H1:hover {
+    text-shadow: -400px 0 tomato,
+                 400px 0 yellowgreen,
+                 0 0 skyblue;
+    }
+
+.osnova{
+	min-height: 500px;
+
+  background-color: #d5ecf0;
+  background-image: url("images/black.jpg");
+  background-position: 50% 50%;
+  background-size: 900px;
+  background-repeat: no-repeat;
+
+}
+P.osnova__p{
+	position: absolute;
+	left:320px;
+	
+}
+
+	
+.hh {
+  font-size: 28px;
+  font-family: "Monaco", "Courier", monospace;
+  color: #618ad2;
+  position: absolute;
+	left:500px;
+}
+.osnova2{
+	min-height: 500px;
+
+  background-color: #d5ecf0;
+  background-image: url("images/black.jpg");
+  background-position: 50% 50%;
+  background-size: 900px;
+  background-repeat: no-repeat;
+
+}
